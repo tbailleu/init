@@ -1,0 +1,4 @@
+nslookup 10.51.1.253 nous montre 'dhcp.42.fr'
+Une analyse des port montre le port 53 ouvert
+On peut utiliser 10.51.1.253 avec nslookup pour resoudre les noms de domaines
+10.51.1.253 est un serveur DNS

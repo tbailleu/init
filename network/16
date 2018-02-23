@@ -1,0 +1,3 @@
+# Nous ne possedont pas les droits d'ecriture sur /etc/hosts
+# mais sinon voila la commande
+echo "46.19.122.85	intra.42.fr" >> /etc/hosts

@@ -1,0 +1,7 @@
+ 1  10.11.254.254 (10.11.254.254)  0.916 ms  1.001 ms  2.767 ms
+2   nat-1 (10.60.1.11)  0.318 ms  0.155 ms  0.147 ms
+ 3  dc3 (62.210.35.1)  1.816 ms  2.051 ms  2.360 ms
+ 4  195.154.1.174 (195.154.1.174)  1.110 ms  1.104 ms  1.000 ms
+
+A la ligne 2 on voit le hop: "nat-1"
+C'est le NAT qui fait le lien entre le reseau local et l'exterieur

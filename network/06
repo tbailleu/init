@@ -1,0 +1,2 @@
+L’adresse IP du serveur DNS que vous utilisez est ecrit dans /etc/resolv.conf
+pointant vers le fichier /var/run/resolv.conf

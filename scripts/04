@@ -1,0 +1,15 @@
+#!/bin/bash
+#
+# # crontab -e
+# 0 0 * * * <path-to-script>
+#
+# sans script :
+# 0 4 * * 1 apt-get -y update >> /var/log/update_script.log && apt-get -y upgrade >> /var/log/update_script.log
+#
+touch summd5
+summd5=$(md5sum "/etc/crontab")
+read -r line<summd5
+if [ "$line" != "$summd5" ]; then
+	echo "File /etc/crontab have change new md5sum: $summd5" | mail -s "crontab have changed" root
+fi
+echo $summd5 > summd5
